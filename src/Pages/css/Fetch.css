@@ -1,0 +1,8 @@
+.container h2{
+    color: rgb(230, 230, 230);
+}
+
+.container ul{
+    list-style-type: none;
+    padding: 0;
+}
