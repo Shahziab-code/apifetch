@@ -1,8 +1,30 @@
-.container h2{
-    color: rgb(230, 230, 230);
+.container h2 {
+  color: rgb(230, 230, 230);
 }
 
-.container ul{
-    list-style-type: none;
-    padding: 0;
+.container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container ul li {
+  background-color: rgb(181 181 181);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(53 53 53);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 3px 10px #000000;
+}
+
+.postsItems{
+    display: flex;
+    justify-content: space-between;
+}
+
+.editBtn{
+    cursor: pointer;
+    margin-left: 10px;
 }
